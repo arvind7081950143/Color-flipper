@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background:#dcebf3;
+
+}
+.body{
+width: 100%;
+height: 550px;
+background: wheat;
+position: absolute;
+}
+.body div{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    border: #dcebf3;
+    border-radius: 10px;
+}
+.body div h1{
+    color: wheat;
+
+}
+.body div button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: #dcebf3;
+    color: black;
+    font-size: 15px;
+    border:2px solid #dcebf3;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media only screen and (min-width:320px) and (max-width:670px){
+
+
+    .header{
+        width: 100%;
+        height: 40px;
+    
+    }
+    .body{
+    width: 100%;
+    height:550px;
+    }
+    .body div{
+        position: relative;
+        margin-top: 100px;
+        margin-left:25%;
+        width: 50%;
+        height: 100px;
+    }
+    .body div button{
+        width: 70px;
+        height: 40px;
+        font-size: 10px;
+        border:2px solid #dcebf3;
+        font-weight: 800;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
